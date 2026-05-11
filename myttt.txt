@@ -1,0 +1,5 @@
+Python now uses UTF-8 as the default encoding, independent of the system’s environment. This means that I/O operations without an explicit encoding, for example, open('flying-circus.txt'), will use UTF-8. UTF-8 is a widely-supported Unicode character encoding that has become a de facto standard for representing text, including nearly every webpage on the internet, many common file formats, programming languages, and more.
+
+This only applies when no encoding argument is given. For best compatibility between versions of Python, ensure that an explicit encoding argument is always provided. The opt-in encoding warning can be used to identify code that may be affected by this change. The special encoding='locale' argument uses the current locale encoding, and has been supported since Python 3.10.
+
+To retain the previous behaviour, Python’s UTF-8 mode may be disabled with the PYTHONUTF8=0 environment variable or the -X utf8=0 command-line option.

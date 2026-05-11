@@ -1,0 +1,196 @@
+id,Country,iso2,iso3,region,subregion,capital
+1,Afghanistan,AF,AFG,Asia,Southern Asia,Kabul
+2,Albania,AL,ALB,Europe,Southern Europe,Tirana
+3,Algeria,DZ,DZA,Africa,Northern Africa,Algiers
+4,Andorra,AD,AND,Europe,Southern Europe,Andorra la Vella
+5,Angola,AO,AGO,Africa,Middle Africa,Luanda
+6,Antigua and Barbuda,AG,ATG,Americas,Caribbean,Saint John's
+7,Argentina,AR,ARG,Americas,South America,Buenos Aires
+8,Armenia,AM,ARM,Asia,Western Asia,Yerevan
+9,Australia,AU,AUS,Oceania,Australia and New Zealand,Canberra
+10,Austria,AT,AUT,Europe,Western Europe,Vienna
+11,Azerbaijan,AZ,AZE,Asia,Western Asia,Baku
+12,Bahamas,BS,BHS,Americas,Caribbean,Nassau
+13,Bahrain,BH,BHR,Asia,Western Asia,Manama
+14,Bangladesh,BD,BGD,Asia,Southern Asia,Dhaka
+15,Barbados,BB,BRB,Americas,Caribbean,Bridgetown
+16,Belarus,BY,BLR,Europe,Eastern Europe,Minsk
+17,Belgium,BE,BEL,Europe,Western Europe,Brussels
+18,Belize,BZ,BLZ,Americas,Central America,Belmopan
+19,Benin,BJ,BEN,Africa,Western Africa,Porto-Novo
+20,Bhutan,BT,BTN,Asia,Southern Asia,Thimphu
+21,Bolivia,BO,BOL,Americas,South America,Sucre
+22,Bosnia and Herzegovina,BA,BIH,Europe,Southern Europe,Sarajevo
+23,Botswana,BW,BWA,Africa,Southern Africa,Gaborone
+24,Brazil,BR,BRA,Americas,South America,Brasilia
+25,Brunei,BN,BRN,Asia,South-Eastern Asia,Bandar Seri Begawan
+26,Bulgaria,BG,BGR,Europe,Eastern Europe,Sofia
+27,Burkina Faso,BF,BFA,Africa,Western Africa,Ouagadougou
+28,Burundi,BI,BDI,Africa,Eastern Africa,Gitega
+29,Cabo Verde,CV,CPV,Africa,Western Africa,Praia
+30,Cambodia,KH,KHM,Asia,South-Eastern Asia,Phnom Penh
+31,Cameroon,CM,CMR,Africa,Middle Africa,Yaounde
+32,Canada,CA,CAN,Americas,Northern America,Ottawa
+33,Central African Republic,CF,CAF,Africa,Middle Africa,Bangui
+34,Chad,TD,TCD,Africa,Middle Africa,N'Djamena
+35,Chile,CL,CHL,Americas,South America,Santiago
+36,China,CN,CHN,Asia,Eastern Asia,Beijing
+37,Colombia,CO,COL,Americas,South America,Bogota
+38,Comoros,KM,COM,Africa,Eastern Africa,Moroni
+39,Congo (Congo-Brazzaville),CG,COG,Africa,Middle Africa,Brazzaville
+40,Costa Rica,CR,CRI,Americas,Central America,San Jose
+41,Croatia,HR,HRV,Europe,Southern Europe,Zagreb
+42,Cuba,CU,CUB,Americas,Caribbean,Havana
+43,Cyprus,CY,CYP,Asia,Western Asia,Nicosia
+44,Czechia,CZ,CZE,Europe,Eastern Europe,Prague
+45,Democratic Republic of the Congo,CD,COD,Africa,Middle Africa,Kinshasa
+46,Denmark,DK,DNK,Europe,Northern Europe,Copenhagen
+47,Djibouti,DJ,DJI,Africa,Eastern Africa,Djibouti
+48,Dominica,DM,DMA,Americas,Caribbean,Roseau
+49,Dominican Republic,DO,DOM,Americas,Caribbean,Santo Domingo
+50,Ecuador,EC,ECU,Americas,South America,Quito
+51,Egypt,EG,EGY,Africa,Northern Africa,Cairo
+52,El Salvador,SV,SLV,Americas,Central America,San Salvador
+53,Equatorial Guinea,GQ,GNQ,Africa,Middle Africa,Malabo
+54,Eritrea,ER,ERI,Africa,Eastern Africa,Asmara
+55,Estonia,EE,EST,Europe,Northern Europe,Tallinn
+56,Eswatini,SZ,SWZ,Africa,Southern Africa,Mbabane
+57,Ethiopia,ET,ETH,Africa,Eastern Africa,Addis Ababa
+58,Fiji,FJ,FJI,Oceania,Melanesia,Suva
+59,Finland,FI,FIN,Europe,Northern Europe,Helsinki
+60,France,FR,FRA,Europe,Western Europe,Paris
+61,Gabon,GA,GAB,Africa,Middle Africa,Libreville
+62,Gambia,GM,GMB,Africa,Western Africa,Banjul
+63,Georgia,GE,GEO,Asia,Western Asia,Tbilisi
+64,Germany,DE,DEU,Europe,Western Europe,Berlin
+65,Ghana,GH,GHA,Africa,Western Africa,Accra
+66,Greece,GR,GRC,Europe,Southern Europe,Athens
+67,Grenada,GD,GRD,Americas,Caribbean,Saint George's
+68,Guatemala,GT,GTM,Americas,Central America,Guatemala City
+69,Guinea,GN,GIN,Africa,Western Africa,Conakry
+70,Guinea-Bissau,GW,GNB,Africa,Western Africa,Bissau
+71,Guyana,GY,GUY,Americas,South America,Georgetown
+72,Haiti,HT,HTI,Americas,Caribbean,Port-au-Prince
+73,Honduras,HN,HND,Americas,Central America,Tegucigalpa
+74,Hungary,HU,HUN,Europe,Eastern Europe,Budapest
+75,Iceland,IS,ISL,Europe,Northern Europe,Reykjavik
+76,India,IN,IND,Asia,Southern Asia,New Delhi
+77,Indonesia,ID,IDN,Asia,South-Eastern Asia,Jakarta
+78,Iran,IR,IRN,Asia,Southern Asia,Tehran
+79,Iraq,IQ,IRQ,Asia,Western Asia,Baghdad
+80,Ireland,IE,IRL,Europe,Northern Europe,Dublin
+81,Israel,IL,ISR,Asia,Western Asia,Jerusalem
+82,Italy,IT,ITA,Europe,Southern Europe,Rome
+83,Jamaica,JM,JAM,Americas,Caribbean,Kingston
+84,Japan,JP,JPN,Asia,Eastern Asia,Tokyo
+85,Jordan,JO,JOR,Asia,Western Asia,Amman
+86,Kazakhstan,KZ,KAZ,Asia,Central Asia,Astana
+87,Kenya,KE,KEN,Africa,Eastern Africa,Nairobi
+88,Kiribati,KI,KIR,Oceania,Micronesia,South Tarawa
+89,Kuwait,KW,KWT,Asia,Western Asia,Kuwait City
+90,Kyrgyzstan,KG,KGZ,Asia,Central Asia,Bishkek
+91,Laos,LA,LAO,Asia,South-Eastern Asia,Vientiane
+92,Latvia,LV,LVA,Europe,Northern Europe,Riga
+93,Lebanon,LB,LBN,Asia,Western Asia,Beirut
+94,Lesotho,LS,LSO,Africa,Southern Africa,Maseru
+95,Liberia,LR,LBR,Africa,Western Africa,Monrovia
+96,Libya,LY,LBY,Africa,Northern Africa,Tripoli
+97,Liechtenstein,LI,LIE,Europe,Western Europe,Vaduz
+98,Lithuania,LT,LTU,Europe,Northern Europe,Vilnius
+99,Luxembourg,LU,LUX,Europe,Western Europe,Luxembourg City
+100,Madagascar,MG,MDG,Africa,Eastern Africa,Antananarivo
+101,Malawi,MW,MWI,Africa,Eastern Africa,Lilongwe
+102,Malaysia,MY,MYS,Asia,South-Eastern Asia,Kuala Lumpur
+103,Maldives,MV,MDV,Asia,Southern Asia,Male
+104,Mali,ML,MLI,Africa,Western Africa,Bamako
+105,Malta,MT,MLT,Europe,Southern Europe,Valletta
+106,Marshall Islands,MH,MHL,Oceania,Micronesia,Majuro
+107,Mauritania,MR,MRT,Africa,Western Africa,Nouakchott
+108,Mauritius,MU,MUS,Africa,Eastern Africa,Port Louis
+109,Mexico,MX,MEX,Americas,Central America,Mexico City
+110,Micronesia,FM,FSM,Oceania,Micronesia,Palikir
+111,Moldova,MD,MDA,Europe,Eastern Europe,Chisinau
+112,Monaco,MC,MCO,Europe,Western Europe,Monaco
+113,Mongolia,MN,MNG,Asia,Eastern Asia,Ulaanbaatar
+114,Montenegro,ME,MNE,Europe,Southern Europe,Podgorica
+115,Morocco,MA,MAR,Africa,Northern Africa,Rabat
+116,Mozambique,MZ,MOZ,Africa,Eastern Africa,Maputo
+117,Myanmar (Burma),MM,MMR,Asia,South-Eastern Asia,Naypyidaw
+118,Namibia,NA,NAM,Africa,Southern Africa,Windhoek
+119,Nauru,NR,NRU,Oceania,Micronesia,Yaren
+120,Nepal,NP,NPL,Asia,Southern Asia,Kathmandu
+121,Netherlands,NL,NLD,Europe,Western Europe,Amsterdam
+122,New Zealand,NZ,NZL,Oceania,Australia and New Zealand,Wellington
+123,Nicaragua,NI,NIC,Americas,Central America,Managua
+124,Niger,NE,NER,Africa,Western Africa,Niamey
+125,Nigeria,NG,NGA,Africa,Western Africa,Abuja
+126,North Korea,KP,PRK,Asia,Eastern Asia,Pyongyang
+127,North Macedonia,MK,MKD,Europe,Southern Europe,Skopje
+128,Norway,NO,NOR,Europe,Northern Europe,Oslo
+129,Oman,OM,OMN,Asia,Western Asia,Muscat
+130,Pakistan,PK,PAK,Asia,Southern Asia,Islamabad
+131,Palau,PW,PLW,Oceania,Micronesia,Ngerulmud
+132,Palestine,PS,PSE,Asia,Western Asia,Ramallah
+133,Panama,PA,PAN,Americas,Central America,Panama City
+134,Papua New Guinea,PG,PNG,Oceania,Melanesia,Port Moresby
+135,Paraguay,PY,PRY,Americas,South America,Asuncion
+136,Peru,PE,PER,Americas,South America,Lima
+137,Philippines,PH,PHL,Asia,South-Eastern Asia,Manila
+138,Poland,PL,POL,Europe,Eastern Europe,Warsaw
+139,Portugal,PT,PRT,Europe,Southern Europe,Lisbon
+140,Qatar,QA,QAT,Asia,Western Asia,Doha
+141,Romania,RO,ROU,Europe,Eastern Europe,Bucharest
+142,Russia,RU,RUS,Europe,Eastern Europe,Moscow
+143,Rwanda,RW,RWA,Africa,Eastern Africa,Kigali
+144,Saint Kitts and Nevis,KN,KNA,Americas,Caribbean,Basseterre
+145,Saint Lucia,LC,LCA,Americas,Caribbean,Castries
+146,Saint Vincent and the Grenadines,VC,VCT,Americas,Caribbean,Kingstown
+147,Samoa,WS,WSM,Oceania,Polynesia,Apia
+148,San Marino,SM,SMR,Europe,Southern Europe,San Marino
+149,Sao Tome and Principe,ST,STP,Africa,Middle Africa,Sao Tome
+150,Saudi Arabia,SA,SAU,Asia,Western Asia,Riyadh
+151,Senegal,SN,SEN,Africa,Western Africa,Dakar
+152,Serbia,RS,SRB,Europe,Southern Europe,Belgrade
+153,Seychelles,SC,SYC,Africa,Eastern Africa,Victoria
+154,Sierra Leone,SL,SLE,Africa,Western Africa,Freetown
+155,Singapore,SG,SGP,Asia,South-Eastern Asia,Singapore
+156,Slovakia,SK,SVK,Europe,Eastern Europe,Bratislava
+157,Slovenia,SI,SVN,Europe,Southern Europe,Ljubljana
+158,Solomon Islands,SB,SLB,Oceania,Melanesia,Honiara
+159,Somalia,SO,SOM,Africa,Eastern Africa,Mogadishu
+160,South Africa,ZA,ZAF,Africa,Southern Africa,Pretoria
+161,South Korea,KR,KOR,Asia,Eastern Asia,Seoul
+162,South Sudan,SS,SSD,Africa,Eastern Africa,Juba
+163,Spain,ES,ESP,Europe,Southern Europe,Madrid
+164,Sri Lanka,LK,LKA,Asia,Southern Asia,Sri Jayawardenepura Kotte
+165,Sudan,SD,SDN,Africa,Northern Africa,Khartoum
+166,Suriname,SR,SUR,Americas,South America,Paramaribo
+167,Sweden,SE,SWE,Europe,Northern Europe,Stockholm
+168,Switzerland,CH,CHE,Europe,Western Europe,Bern
+169,Syria,SY,SYR,Asia,Western Asia,Damascus
+170,Taiwan,TW,TWN,Asia,Eastern Asia,Taipei
+171,Tajikistan,TJ,TJK,Asia,Central Asia,Dushanbe
+172,Tanzania,TZ,TZA,Africa,Eastern Africa,Dodoma
+173,Thailand,TH,THA,Asia,South-Eastern Asia,Bangkok
+174,Timor-Leste,TL,TLS,Asia,South-Eastern Asia,Dili
+175,Togo,TG,TGO,Africa,Western Africa,Lome
+176,Tonga,TO,TON,Oceania,Polynesia,Nuku'alofa
+177,Trinidad and Tobago,TT,TTO,Americas,Caribbean,Port of Spain
+178,Tunisia,TN,TUN,Africa,Northern Africa,Tunis
+179,Turkey,TR,TUR,Asia,Western Asia,Ankara
+180,Turkmenistan,TM,TKM,Asia,Central Asia,Ashgabat
+181,Tuvalu,TV,TUV,Oceania,Polynesia,Funafuti
+182,Uganda,UG,UGA,Africa,Eastern Africa,Kampala
+183,Ukraine,UA,UKR,Europe,Eastern Europe,Kyiv
+184,United Arab Emirates,AE,ARE,Asia,Western Asia,Abu Dhabi
+185,United Kingdom,GB,GBR,Europe,Northern Europe,London
+186,United States,US,USA,Americas,Northern America,Washington D.C.
+187,Uruguay,UY,URY,Americas,South America,Montevideo
+188,Uzbekistan,UZ,UZB,Asia,Central Asia,Tashkent
+189,Vanuatu,VU,VUT,Oceania,Melanesia,Port Vila
+190,Vatican City,VA,VAT,Europe,Southern Europe,Vatican City
+191,Venezuela,VE,VEN,Americas,South America,Caracas
+192,Vietnam,VN,VNM,Asia,South-Eastern Asia,Hanoi
+193,Yemen,YE,YEM,Asia,Western Asia,Sanaa
+194,Zambia,ZM,ZMB,Africa,Southern Africa,Lusaka
+195,Zimbabwe,ZW,ZWE,Africa,Southern Africa,Harare
