@@ -46,7 +46,7 @@ plt.ylabel("Feature 2")
 
 plt.show()
 
-model = LabelPropagation()
+model = LabelPropagation() # Initialize the Label Propagation model
 
 model.fit(X_train, y_train_semi)
 
