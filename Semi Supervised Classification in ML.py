@@ -35,3 +35,33 @@ rng = np.random.RandomState(42)
 random_unlabeled = rng.rand(len(y_train_semi)) < 0.7
 
 y_train_semi[random_unlabeled] = -1
+
+plt.figure(figsize=(6,4))
+
+plt.scatter(X_train[:,0], X_train[:,1], c=y_train_semi, cmap="viridis")
+
+plt.title("Labeled vs Unlabeled Data")
+plt.xlabel("Feature 1")
+plt.ylabel("Feature 2")
+
+plt.show()
+
+model = LabelPropagation()
+
+model.fit(X_train, y_train_semi)
+
+predictions = model.predict(X_test)
+
+accuracy = accuracy_score(y_test, predictions)
+
+print("Accuracy:", accuracy)
+
+cm = confusion_matrix(y_test, predictions)
+
+sns.heatmap(cm, annot=True, cmap="Blues")
+
+plt.title("Confusion Matrix")
+plt.xlabel("Predicted Label")
+plt.ylabel("True Label")
+
+plt.show()
