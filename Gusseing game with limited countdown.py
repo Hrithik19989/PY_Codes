@@ -29,6 +29,11 @@ def play_game():
 while True:
     play_game()
     again = input("Do you want to play again? (yes/no): ").strip().lower()
-    if again != "yes":
+    if again == "no":
         print("Thanks for playing!")
+        break
+    elif again == "yes":
+        continue
+    else:
+        print("Invalid input! Exiting the game.")
         break
