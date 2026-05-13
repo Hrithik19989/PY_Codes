@@ -14,13 +14,16 @@ def play_game():
                 print("Invalid input! Please enter an integer.")
         if guess < number:
             print("Too low! Try again.")
+            attempts -= 1
+            print(f"You have {attempts} attempts left.")
         elif guess > number:
             print("Too high! Try again.")
+            attempts -= 1
+            print(f"You have {attempts} attempts left.")
         else:
             print("Congratulations! You've guessed the number!")
             return
-        attempts -= 1
-        print(f"You have {attempts} attempts left.")
+
     print(f"Game over! The number was {number}.")
 
 while True:
