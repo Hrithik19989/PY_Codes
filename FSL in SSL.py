@@ -35,7 +35,6 @@ num_support_per_class = 5
 num_query_per_class   = 5
 
 support_indices, query_indices = [], []
-
 for cls in selected_classes:
     train_idxs = [i for i, y in enumerate(train_dataset.targets) if y == cls]
     test_idxs  = [i for i, y in enumerate(test_dataset.targets)  if y == cls]
