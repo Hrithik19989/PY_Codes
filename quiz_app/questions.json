@@ -1,0 +1,83 @@
+{
+  "Python": [
+    {
+      "question": "What is the output of print(type([]))?",
+      "options": ["<class 'list'>", "<class 'array'>", "<class 'tuple'>", "<class 'dict'>"],
+      "answer": "A"
+    },
+    {
+      "question": "Which keyword is used to define a function in Python?",
+      "options": ["func", "def", "define", "function"],
+      "answer": "B"
+    },
+    {
+      "question": "What does len('hello') return?",
+      "options": ["4", "5", "6", "error"],
+      "answer": "B"
+    },
+    {
+      "question": "Which of these is a mutable data type?",
+      "options": ["tuple", "string", "list", "int"],
+      "answer": "C"
+    },
+    {
+      "question": "What is used to handle exceptions in Python?",
+      "options": ["try/except", "if/else", "for/while", "import/export"],
+      "answer": "A"
+    }
+  ],
+  "General Knowledge": [
+    {
+      "question": "What is the capital of France?",
+      "options": ["Berlin", "Madrid", "Paris", "Rome"],
+      "answer": "C"
+    },
+    {
+      "question": "How many continents are there on Earth?",
+      "options": ["5", "6", "7", "8"],
+      "answer": "C"
+    },
+    {
+      "question": "What is the largest planet in our solar system?",
+      "options": ["Earth", "Saturn", "Neptune", "Jupiter"],
+      "answer": "D"
+    },
+    {
+      "question": "Who painted the Mona Lisa?",
+      "options": ["Van Gogh", "Picasso", "Da Vinci", "Rembrandt"],
+      "answer": "C"
+    },
+    {
+      "question": "What is the chemical symbol for water?",
+      "options": ["WA", "H2O", "HO", "OW"],
+      "answer": "B"
+    }
+  ],
+  "Math": [
+    {
+      "question": "What is 12 x 12?",
+      "options": ["132", "144", "124", "148"],
+      "answer": "B"
+    },
+    {
+      "question": "What is the square root of 144?",
+      "options": ["11", "12", "13", "14"],
+      "answer": "B"
+    },
+    {
+      "question": "What is 15% of 200?",
+      "options": ["25", "30", "35", "40"],
+      "answer": "B"
+    },
+    {
+      "question": "What is the value of Pi (approximately)?",
+      "options": ["3.14", "3.41", "3.12", "3.16"],
+      "answer": "A"
+    },
+    {
+      "question": "If x + 5 = 12, what is x?",
+      "options": ["5", "6", "7", "8"],
+      "answer": "C"
+    }
+  ]
+}
