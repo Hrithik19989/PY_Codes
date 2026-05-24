@@ -3,7 +3,7 @@ import os
 import time
 import random 
 
-# Quiz CLI
+# Quiz CLI in python
 class Question:
     def __init__(self , question , options , answer ):
         self.question = question
