@@ -1,5 +1,4 @@
 import warnings
-from keras.utils import pad_sequences
 from keras.layers import TextVectorization
 from sklearn.model_selection import train_test_split
 import tensorflow as tf
@@ -7,13 +6,10 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 import plotly.express as px
-import numpy as np
-
 import re
 import nltk
 nltk.download('all')
 from nltk.corpus import stopwords
-from nltk.tokenize import word_tokenize
 from nltk.stem import WordNetLemmatizer
 lemm = WordNetLemmatizer()
 
