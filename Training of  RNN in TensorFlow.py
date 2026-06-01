@@ -98,15 +98,6 @@ X['Text'] = list(X['Title']+X['Review Text']+X['Class Name'])
 X_train, X_test, y_train, y_test = train_test_split(
     X['Text'], y, test_size=0.25, random_state=42)
 
-#Initialize the modern layer replacement
-vectorizer = TextVectorization(
-    max_tokens=10000,           # Replaces num_words=10000
-    output_mode='int'           # Outputs token IDs (like texts_to_sequences)
-)
-
-#Train the vocabulary on your training data
-vectorizer.adapt(X_train)       # Replaces fit_on_texts(X_train)
-
 # 1. Setup the layer to handle vocab size, truncating, and padding automatically
 vectorizer = TextVectorization(
     max_tokens=10000,
