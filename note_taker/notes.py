@@ -1,8 +1,5 @@
 from pathlib import Path
 from datetime import datetime
-import os
-
-from pandas import Timestamp
 
 NOTES_DIR = Path("notes")
 
@@ -18,7 +15,7 @@ def create_note(title , content):
         print(f"  Note '{title}' already exists. Use a different title.")
         return
     
-    timestamp = datetime.now().strftime("%D-%m-%Y,%H:%M,%S")
+    timestamp = datetime.now().strftime("%d/%m/%Y %H:%M:%S")
     
     with open(filepath, "w") as f:
         f.write(f"# {title}\n")
@@ -39,7 +36,7 @@ def list_notes():
     print("  " + "-" * 55)
     
     for i, f in enumerate(files, 1):
-        modified = datetime.fromtimestamp(f.stat().st_mtime).strftime("%D-%m-%Y,%H:%M,%S")
+        modified = datetime.fromtimestamp(f.stat().st_mtime).strftime("%d/%m/%Y %H:%M:%S")
         title = f.stem.replace("_", " ").title()
         print(f"  {i:<4} {title:<30} {modified}")
 
