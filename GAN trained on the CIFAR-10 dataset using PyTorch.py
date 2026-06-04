@@ -23,7 +23,7 @@ latent_dim = 100
 lr = 0.0002
 beta1 = 0.5
 beta2 = 0.999
-num_epochs = 10
+num_epochs = 5
 
 class Generator(nn.Module):
     def __init__(self, latent_dim):
