@@ -1,4 +1,4 @@
-IMPROVEMENTS
+IMPROVEMENTS AND RESULTS
 
 Phone validation — reject non-numeric or wrong-length phone numbers
 Duplicate phone check — warn if the same number is added twice
