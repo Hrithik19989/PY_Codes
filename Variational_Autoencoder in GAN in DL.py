@@ -64,10 +64,10 @@ class VAELossLayer(tf.keras.layers.Layer):
 )
 
         kl_loss = 1 + z_log_var - tf.square(z_mean) - tf.exp(z_log_var)
-        kl_loss = tf.sum(kl_loss, axis=-1)
+        kl_loss = tf.reduce_sum(kl_loss, axis=-1)
         kl_loss *= -0.5
 
-        total_loss = tf.mean(reconstruction_loss + kl_loss)
+        total_loss = tf.reduce_mean(reconstruction_loss + kl_loss)
         self.add_loss(total_loss)
         return x_decoded
 
