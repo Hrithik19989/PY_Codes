@@ -1,7 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import tensorflow as tf
-import keras.backend as K
 from keras.datasets import fashion_mnist
 
 (x_train, _), (x_test, _) = fashion_mnist.load_data()
@@ -60,15 +59,15 @@ class VAELossLayer(tf.keras.layers.Layer):
         x, x_decoded, z_mean, z_log_var = inputs
 
         reconstruction_loss = tf.keras.losses.binary_crossentropy(
-            K.flatten(x), K.flatten(x_decoded)
-        )
-        reconstruction_loss *= 28 * 28
+    tf.reshape(x, [-1]),
+    tf.reshape(x_decoded, [-1])
+)
 
-        kl_loss = 1 + z_log_var - K.square(z_mean) - K.exp(z_log_var)
-        kl_loss = K.sum(kl_loss, axis=-1)
+        kl_loss = 1 + z_log_var - tf.square(z_mean) - tf.exp(z_log_var)
+        kl_loss = tf.sum(kl_loss, axis=-1)
         kl_loss *= -0.5
 
-        total_loss = K.mean(reconstruction_loss + kl_loss)
+        total_loss = tf.mean(reconstruction_loss + kl_loss)
         self.add_loss(total_loss)
         return x_decoded
 
