@@ -2,8 +2,11 @@ import requests
 import json
 from datetime import datetime
 from pathlib import Path
+from dotenv import load_dotenv
+import os
 
-API_KEY   = "37aabe7ba54429ee0e2c704e3aacd732"     # ← paste your key here
+load_dotenv()
+API_KEY = os.getenv("OPENWEATHER_API_KEY")
 BASE_URL  = "https://api.openweathermap.org/data/2.5"
 FAVS_FILE = Path("favourites.json")
 UNITS     = "metric"                # metric = Celsius, imperial = Fahrenheit
