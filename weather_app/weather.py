@@ -138,9 +138,9 @@ def menu():
 
 
 def main():
-    if API_KEY == "your_api_key_here":
-        print("\n  ⚠  Please add your API key in the script first.")
-        print("  Get a free key at: https://openweathermap.org/api\n")
+    if not API_KEY:
+        print("\n  ⚠  API key not found. Add it to your .env file.")
+        print("  Create a .env file with: OPENWEATHER_API_KEY=your_key\n")
         return
 
     while True:
