@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import tensorflow as tf
-from keras import backend as K
+import keras.backend as K
 from keras.datasets import fashion_mnist
 
 (x_train, _), (x_test, _) = fashion_mnist.load_data()
