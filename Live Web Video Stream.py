@@ -1,6 +1,6 @@
 import cv2
 
-# Initialize the webcam (0 is usually the default built-in camera)
+# Initialize the webcamera (0 is usually the default built-in camera)
 cap = cv2.VideoCapture(0)
 
 while True:
